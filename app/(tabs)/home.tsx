@@ -106,7 +106,7 @@ const HomeScreen: React.FC = () => {
       <View style={{ flex: 1, backgroundColor: '#f8f8f8' }}>
         {/* Header avec bouton de déconnexion */}
         <View style={styles.header}>
-          <Image source={require('../../assets/images/logo.jpeg')} style={styles.logo} />
+          {/*<Image source={require('../../assets/images/logo.jpeg')} style={styles.logo} />*/}
           <TouchableOpacity onPress={handleLogout} style={styles.logoutButton}>
             <Ionicons name="log-out" size={24} color="#E64A19" />
             <Text style={styles.logoutText}>Déconnexion</Text>
